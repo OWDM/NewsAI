@@ -22,8 +22,6 @@ NewsAI helps with:
 - [ ] Installation Guide
 - [ ] Feedback Integration
 
-**Note**: I'll be uploading the code soon for those interested in contributing or exploring the implementation. Stay tuned!
-
 🚧 **Work in Progress** - Active development ongoing  
 More features and documentation will be added soon. Stay tuned for updates!
 
