@@ -1,6 +1,6 @@
 # NewsAI 📰
 
-An AI-powered newsletter creation tool that automates article summarization and translation.
+An AI-powered newsletter creation tool that automates article summarization in Arabic.
 
 ## Overview
 
