@@ -18,9 +18,7 @@ NewsAI helps with:
 ## Coming Soon
 - [ ] Source Code Upload
 - [ ] Full Documentation
-- [ ] User Guide
 - [ ] Installation Guide
-- [ ] Feedback Integration
 
 🚧 **Work in Progress** - Active development ongoing  
 More features and documentation will be added soon. Stay tuned for updates!
