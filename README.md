@@ -11,27 +11,6 @@ NewsAI helps with:
 🌐 [Try NewsAI](https://newsai.up.railway.app/)
 ## Setup Instructions
 
-### For Windows:
-
-# 1. Create a virtual environment
-python -m venv newsai
-
-# 2. Activate the virtual environment
-.\newsai\Scripts\Activate
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
-### For macOS:
-'''bash
-# 1. Create a virtual environment
-python3 -m venv newsai
-
-# 2. Activate the virtual environment
-source newsai/bin/activate
-
-# 3. Install dependencies
-pip install -r requirements.txt
 
 
 
