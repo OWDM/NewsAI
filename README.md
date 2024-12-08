@@ -44,6 +44,14 @@ OPENAI_API_KEY = "your-openai-api-key"
 EXTRACTOR_API_KEY = "your-extractor-api-key"
 ```
 
+## Running the Streamlit App
+
+Run this command to start the app:
+
+```bash
+streamlit run app.py
+```
+
 ## Status
 
 ✅ Website Development Complete  
