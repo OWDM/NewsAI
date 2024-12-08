@@ -1,0 +1,123 @@
+/*components.css*/
+
+/* Content Boxes */
+
+/* Original Article - with scroll */
+.original-article-box {
+    background-color: #FFFFFF;
+    border: 1px solid #2e2e2e !important;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #333333;
+    max-height: 700px; /* max height set to 700px */
+    overflow-y: auto; /* allows scrolling when content exceeds 700px */
+    scroll-behavior: smooth;
+}
+
+
+/* English Summary - without scroll */
+.english-summary-box {
+    background-color: #FFFFFF;
+    border: 1px solid #2e2e2e !important;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #333333;
+
+}
+
+/* Shared styles for both boxes */
+.original-article-box, .english-summary-box {
+    background-color: #FFFFFF;
+    border: 1px solid #2e2e2e !important;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+    transition: transform 0.2s ease;
+}
+
+/* Shared hover effects */
+.original-article-box:hover, .english-summary-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/* Import the desired font (e.g., Roboto) from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* style.css */
+
+.summary-box { 
+    width: 60%;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #FFFFFF;
+    border: 1px solid #1b1919;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    direction: rtl;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    text-align: justify;
+    color: #222222;
+    transition: transform 0.2s ease;
+}
+
+.summary-title {
+    font-size: 1.8rem !important;
+    font-weight: bold !important;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.summary-content {
+    font-size: 1.3rem !important;
+}
+
+
+.summary-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/* Text Area Container */
+.text-input-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 1rem auto;
+    position: relative;
+}
+
+/* Auto-Resizing Text Area */
+.stTextArea > div {
+    background: transparent !important;
+    border: none !important;
+}
+
+.stTextArea textarea {
+    min-height: 50px !important; /* Initial small height /
+    max-height: 200px !important; 
+    overflow-y: auto !important; / Enables scrolling when max height is reached */
+    resize: none !important;
+    border: 1px solid #1b1919 !important;
+    border-radius: 12px !important;
+    padding: 15px !important;
+    font-size: 16px !important;
+    background: white !important;
+    box-shadow: 0 2px 4px rgba(237, 6, 6, 0.05) !important;
+}
+
+

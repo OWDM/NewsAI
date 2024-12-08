@@ -1,0 +1,23 @@
+/* Base styles */
+
+
+
+/* Hide Streamlit Elements */
+header {
+    display: none !important;
+}
+
+.css-1rs6os.edgvbvh3, 
+.stToolbar {
+    display: none !important;
+}
+
+
+#MainMenu {
+    display: none !important;
+}
+
+
+
+
+

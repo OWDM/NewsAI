@@ -1,0 +1,25 @@
+/* form-controls.css */
+
+/* Toggle Container */
+.toggle-container {
+    position: relative;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* Custom Toggle Switch */
+.stCheckbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stCheckbox > label {
+    font-size: 1rem;
+    color: #666666;
+}
+
+/* Progress Bar */
+.stProgress > div > div {
+    background-color: #FF4742;
+}
