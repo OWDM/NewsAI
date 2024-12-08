@@ -11,7 +11,7 @@ NewsAI helps with:
 🌐 [Try NewsAI](https://newsai.up.railway.app/)
 ## Setup Instructions
 
-# For Windows:
+## For Windows:
 
 ```bash
 python -m venv newsai
@@ -21,7 +21,7 @@ python -m venv newsai
 pip install -r requirements.txt
 
 ```
-# For macOS:
+## For macOS:
 
 ```bash
 python3 -m venv newsai
@@ -31,6 +31,17 @@ source newsai/bin/activate
 pip install -r requirements.txt
 
 ```
+
+## Editing the API
+1- Locate and Open the api_config.py file.
+2- Modify the API keys:
+'''python 
+# OpenAI API Key
+OPENAI_API_KEY = "your-openai-api-key"
+
+# Extractor API Key (if applicable)
+EXTRACTOR_API_KEY = "your-extractor-api-key"
+'''
 
 ## Status
 
