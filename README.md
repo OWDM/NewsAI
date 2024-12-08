@@ -34,6 +34,7 @@ pip install -r requirements.txt
 
 ## Editing the API
 1- Locate and Open the api_config.py file.
+
 2- Modify the API keys:
 ```python
 # OpenAI API Key
