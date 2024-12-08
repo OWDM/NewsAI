@@ -23,6 +23,7 @@ python -m venv newsai
 pip install -r requirements.txt
 
 ### For macOS:
+'''bash
 # 1. Create a virtual environment
 python3 -m venv newsai
 
