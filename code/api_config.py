@@ -3,5 +3,5 @@
 # OpenAI API Key
 OPENAI_API_KEY = "your-openai-api-key"
 
-# Extractor API Key (if applicable)
+# Extractor API Key 
 EXTRACTOR_API_KEY = "your-extractor-api-key"
