@@ -11,7 +11,7 @@ NewsAI helps with:
 🌐 [Try NewsAI](https://newsai.up.railway.app/)
 ## Setup Instructions
 
-#For Windows:
+# For Windows:
 
 ```bash
 python -m venv newsai
