@@ -21,7 +21,16 @@ python -m venv newsai
 pip install -r requirements.txt
 
 ```
+# For macOS:
 
+```bash
+python3 -m venv newsai
+
+source newsai/bin/activate
+
+pip install -r requirements.txt
+
+```
 
 ## Status
 
