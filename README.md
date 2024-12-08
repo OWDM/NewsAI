@@ -11,7 +11,16 @@ NewsAI helps with:
 🌐 [Try NewsAI](https://newsai.up.railway.app/)
 ## Setup Instructions
 
+#For Windows:
 
+```bash
+python -m venv newsai
+
+.\newsai\Scripts\Activate
+
+pip install -r requirements.txt
+
+```
 
 
 ## Status
